@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C3B2B" />
+      <stop offset="100%" stop-color="#0E1D15" />
+    </linearGradient>
+    <linearGradient id="leaf-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2" />
+      <stop offset="100%" stop-color="#E2DBD0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded App Icon Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg-grad)" />
+
+  <!-- Outer Subtle Ring -->
+  <rect x="24" y="24" width="464" height="464" rx="96" fill="none" stroke="#254B37" stroke-width="6" opacity="0.6" />
+
+  <!-- Botanical Sprout / Leaf Motif (Zero-Waste, Freshness) -->
+  <g transform="translate(140, 110)">
+    <!-- Main Cooking Pot / Bowl -->
+    <path d="M 30 180 C 30 270, 80 310, 116 310 C 152 310, 202 270, 202 180 Z" fill="url(#accent-grad)" />
+    <!-- Pot Rim -->
+    <rect x="18" y="166" width="196" height="22" rx="11" fill="#FFFFFF" />
+    <!-- Steam / Fresh Leaves rising from pot -->
+    <path d="M 116 140 C 90 100, 100 40, 140 20 C 145 60, 125 110, 116 140 Z" fill="url(#leaf-grad)" />
+    <path d="M 116 140 C 140 110, 160 70, 185 65 C 180 95, 145 130, 116 140 Z" fill="#6EE7B7" opacity="0.85" />
+    <!-- Sparkle / Accent -->
+    <circle cx="70" cy="80" r="10" fill="#F59E0B" />
+    <circle cx="170" cy="110" r="6" fill="#F59E0B" />
+  </g>
+</svg>

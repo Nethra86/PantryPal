@@ -1,0 +1,25 @@
+{
+  "name": "PantryPal — Smart Kitchen Companion",
+  "short_name": "PantryPal",
+  "description": "Zero-waste pantry-to-recipe matching engine with smart grocery aggregation and weekly meal planning.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#1C3B2B",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/pantrypal-icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "48x48",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["food", "lifestyle", "productivity"],
+  "screenshots": []
+}
